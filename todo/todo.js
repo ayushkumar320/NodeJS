@@ -1,4 +1,4 @@
-const fs = require("fs");
+import fs from "fs";
 const filePath = "./tasks.json";
 
 const command = process.argv[2];
